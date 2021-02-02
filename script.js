@@ -1,4 +1,4 @@
-const api='**********************************';
+const api='**********************************'; //place your API key
 const iconImg = document.getElementById('weather-icon');
 const loc = document.querySelector('#location');
 const tempC = document.querySelector('.c');
