@@ -1,0 +1,56 @@
+body
+{
+	background-image: url('abc1.jfif');
+	background-repeat: no-repeat;
+	font-family: 'Alike Angular', serif;
+}
+
+.heading
+{
+	text-indent: center;
+	text-align: center;
+	color: #6D2631 ;
+	font-size: 48px;
+}
+
+.click
+{
+	background-color: #4CAF50;
+	border: groove; 
+	padding: 2px;
+	border-color: #4CAF50;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #03ADAD ;
+}
+
+.weather {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 1.5rem;
+}
+
+#location {
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: italic;
+}
+.desc {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+}
